@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "DOGE";
+  src:  url('4DOGS.TTF')  format('truetype');
+  }
+
+body{
+  /*background-color:#01211a;*/
+  background-image: url("back12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "DOGE",sans-serif;
+
+
+ }
+
+ .row{
+   display: block;
+   margin-left: 9em;
+
+ }
+ #table{
+   color : #01211a;
+
+ }
+ #result{
+   font-family: "DOGE",sans-serif;
+   margin-top: 3em;
+   color: white;
+   margin-left: 154px;
+   font-size: 2em;
+ }
+.box{
+
+  border: 1px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: #28261F;
+  font-family: "DOGE",sans-serif;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  display:inline-block;
+  font-size: 5em;
+  color:white;
+}
+/*CLASS BOX IS NOT SPECIFIC ENOUGH*/
+#box-A1,#box-B1,#box-C1,#box-A2,#box-B2,#box-C2,#box-A3,#box-B3,#box-C3{
+  color: #28361F;
+}
